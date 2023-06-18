@@ -1,0 +1,27 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.button{
+    padding: 20px;
+}
+.button:hover{
+    background-color: aquamarine;
+}
+.row{
+    margin:3px 0px; 
+    /* topbottom leftright */
+}
+.row input{
+    margin: 0px;
+    /* padding: 0px; */
+}
+#clear{
+    padding: 20px 15px;
+    margin: 7px;
+}
+@media (max-width:1080px){ /* 1080px ke andar andar */
+   .fullcon{
+    display: block;
+   } 
+}
